@@ -1,6 +1,6 @@
 document.getElementById('fetchButton').addEventListener('click', function() {
     const userId = document.getElementById('userId').value;
-    const url = `https://kirka.irrvlo.xyz/_next/data/Qj7Evkvz7SgKQYk1Q4HmZ/users/${userId}.json`;
+    const url = `https://api.kirka.io/api/User${userId}`;
 
     fetch(url)
         .then(response => response.json())
