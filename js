@@ -1,4 +1,4 @@
-let result = fetch("https://kirka.irrvlo.xyz/_next/data/Qj7Evkvz7SgKQYk1Q4HmZ/users/B0TMFC.json", {
+let result = fetch("https://api.kirka.io/api/User/", {
     "credentials": "omit",
     "headers": {
         "User-Agent": "BOT",
